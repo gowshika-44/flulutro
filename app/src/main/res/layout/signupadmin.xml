@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@android:dimen/app_icon_size"
+    android:layout_marginRight="@android:dimen/app_icon_size"
+    android:layout_marginTop="@android:dimen/app_icon_size">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sign Up"
+        android:textColor="#204969"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        style="@style/MyEditTextStyle"
+        android:background="@drawable/rounded_corner"
+        android:hint="Username"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+   style="@style/MyEditTextStyle"
+        android:hint="Email"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_corner"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        style="@style/MyEditTextStyle"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="Password"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corner2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_light"
+        android:text="Sign Up" />
+</LinearLayout>

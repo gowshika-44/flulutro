@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/student"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:title="student" />
+    <item
+        android:id="@+id/interested"
+        android:icon="@drawable/ic_factory"
+        android:title="Interested" />
+
+    <item
+        android:id="@+id/company"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="Company" />
+    <item
+        android:id="@+id/document"
+        android:icon="@drawable/ic_collections_black_24dp"
+        android:title="Document" />
+</menu>

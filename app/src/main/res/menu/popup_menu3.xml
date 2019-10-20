@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/company"
+    android:title="Company Detail"></item>
+    <item android:id="@+id/student"
+        android:title="Student Detail"></item>
+    <item android:id="@+id/delete"
+        android:title="Delete Student"></item>
+</menu>

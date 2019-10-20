@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addtpo"
+        android:icon="@drawable/ic_add_box_black_24dp"
+        android:title="add tpo" />
+    <item
+        android:id="@+id/addstudent"
+        android:icon="@drawable/ic_add_box_black_24dp"
+        android:title="add student"
+        />
+
+    <item
+        android:id="@+id/TPO"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="TPO" />
+
+    <item
+        android:id="@+id/STUDENT"
+        android:icon="@drawable/ic_view_list_black_24dp"
+        android:title="STUDENT" />
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@android:dimen/app_icon_size"
+    android:layout_marginRight="@android:dimen/app_icon_size"
+    android:layout_marginTop="@android:dimen/app_icon_size">
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        style="@style/MyEditTextStyle"
+        android:background="@drawable/round_corner3"
+        android:inputType="textPersonName"
+        android:hint="Title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="Description"
+        style="@style/MyEditTextStyle"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_corner3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+    <Button
+        android:id="@+id/button4"
+android:background="@drawable/rounded_corner2"
+        android:textColor="@color/cardview_light_background"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="save" />
+
+</LinearLayout>

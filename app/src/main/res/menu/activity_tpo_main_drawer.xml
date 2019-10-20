@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item android:id="@+id/notification"
+    android:title="Add Notification"></item>
+    <item android:id="@+id/company"
+        android:title="Add Company"></item>
+    <item android:id="@+id/pdf"
+        android:title="Add Pdf"></item>
+    <item android:id="@+id/showstudent"
+        android:title="Show Student"></item>
+    <item android:id="@+id/addimage"
+        android:title="Add Image"></item>
+
+<item android:id="@+id/shownotification"
+    android:title="Show Notification"></item>
+    <item android:id="@+id/showcompany"
+        android:title="Show Company"></item>
+    <item android:id="@+id/selectstudent"
+        android:title="Selected Student"></item>
+    <item android:id="@+id/showpdf"
+        android:title="Show Pdf"></item>
+</menu>
